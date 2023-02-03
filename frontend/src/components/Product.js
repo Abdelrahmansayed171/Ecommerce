@@ -3,13 +3,16 @@ import { Card } from 'react-bootstrap'
 
 function Product({ product }) {
     return (
-        <Card className='my-3 p-3' bg="dark" variant="dark" style={{ width: '14rem' }}>
+        <Card className="my-3 p-3 rounded" style={{ width: '16rem' , height: '30rem'}}>
             <a href='#'>
-                <Card.Img  src={product.image} style={{ maxHeight: 200, maxWidth: 300}}/>
+                <div >
+                    <Card.Img src={product.image}/>
+                </div>
+                
             </a>
             <Card.Body>
                 <a href='#'>
-                    <Card.Title as= "div">
+                    <Card.Title as="div">
                         <strong>{product.name}</strong>
                     </Card.Title>
                 </a>
@@ -18,8 +21,6 @@ function Product({ product }) {
                         {product.rating} from {product.numReviews} reviews
                     </div>
                 </Card.Text>
-
-
                 <Card.Text as='h3'>
                     ${product.price}
                 </Card.Text>
