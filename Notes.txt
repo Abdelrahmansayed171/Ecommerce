@@ -1,0 +1,14 @@
+1. sudo apt install npm
+
+2. npm -v
+
+3. node -v
+
+4. npx create-react-app <<NAME>>
+    4.1 need to upgrade npm: sudo npm install npm -g
+    4.2 install node 18.13 (Recommended by Nodejs): curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash - && \sudo apt-get install -y nodejs from https://github.com/nodesource/distributions/blob/master/README.md
+        4.2.1 found an overwritting problem and solved by first answer in https://unix.stackexchange.com/questions/627635/upgrading-nodejs-on-ubuntu-how-to-fix-broken-pipe-error
+    
+5. npm start
+
+6. 
