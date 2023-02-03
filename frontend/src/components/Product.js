@@ -3,12 +3,12 @@ import { Card } from 'react-bootstrap'
 
 function Product({ product }) {
     return (
-        <Card className='my-3 p-3' bg="dark" variant="dark">
-            <a href={`/product/${product._id}`}>
-                <Card.Img src={product.image} />
+        <Card className='my-3 p-3' bg="dark" variant="dark" style={{ width: '14rem' }}>
+            <a href='#'>
+                <Card.Img  src={product.image} style={{ maxHeight: 200, maxWidth: 300}}/>
             </a>
             <Card.Body>
-                <a href={`/product/${product._id}`}>
+                <a href='#'>
                     <Card.Title as= "div">
                         <strong>{product.name}</strong>
                     </Card.Title>

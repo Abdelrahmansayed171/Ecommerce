@@ -18,7 +18,7 @@ const products = [
         'description': 'Introducing the iphone 11 pro. A transformative triple-camera system with A13 Bionic processor',
         'brand' : 'Apple',
         'category' : 'Electronics',
-        'price' : '953',
+        'price' : '364',
         'countInStock': '40',
         'rating' : '4.0',
         'numReviews' : '250'
