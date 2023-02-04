@@ -6,10 +6,10 @@ const products = [
         'description': 'Bluetooth technology lets you connect it with compatible devices wirelessly High-quality',
         'brand' : 'Apple',
         'category' : 'Electronics',
-        'price' : '65.5',
+        'price' : '65.56',
         'countInStock': '16',
         'rating' : '4.5',
-        'numReviews' : '21'
+        'numReviews' : '2100'
     },
     {
         '_id': '2',
@@ -18,7 +18,7 @@ const products = [
         'description': 'Introducing the iphone 11 pro. A transformative triple-camera system with A13 Bionic processor',
         'brand' : 'Apple',
         'category' : 'Electronics',
-        'price' : '364',
+        'price' : '364.25',
         'countInStock': '40',
         'rating' : '4.0',
         'numReviews' : '250'
@@ -30,7 +30,7 @@ const products = [
         'description': 'Characterized by versatile imaging specs, the cannon EOS 80D further clarifies itself',
         'brand' : 'Cannon',
         'category' : 'Electronics',
-        'price' : '1200',
+        'price' : '1205.00',
         'countInStock': '22',
         'rating' : '4.0',
         'numReviews' : '156'
@@ -42,7 +42,7 @@ const products = [
         'description': 'The ultimate home entertainment center starts with PlayStation. Join your friendsor play offline',
         'brand' : 'Sony',
         'category' : 'Electronics',
-        'price' : '420',
+        'price' : '420.99',
         'countInStock': '10',
         'rating' : '3.0',
         'numReviews' : '15'
