@@ -11,4 +11,5 @@
     
 5. npm start
 
-6. 
+6. npm install react-router-dom react-router-bootstrap
+7. 

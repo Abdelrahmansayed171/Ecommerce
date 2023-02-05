@@ -1,5 +1,35 @@
 main{
   /* viewport height */
   min-height: 80vh;
-  
+}
+
+.rating span{
+  margin: 0.02rem;
+  color: #13274F;
+}
+
+
+
+a.proName:link {
+  color: cyan;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a.proName:visited {
+  color: cyan;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a.proName:hover {
+  color: blue;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a.proName:active {
+  color: #00CED1;
+  background-color: transparent;
+  text-decoration: underline;
 }
