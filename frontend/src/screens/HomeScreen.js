@@ -1,11 +1,28 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import {Row, Col} from 'react-bootstrap'
 import Product from '../components/Product.js'
+import axios from 'axios'
 
-
-import products from '../products'
+// import products from '../products' 
 
 function HomeScreen() {
+  
+  const [products, setProducts] = useState([])
+
+  useEffect(() => {
+
+    async function fetchProducts(){
+      // we can use .then promises but we use async await instead.
+      // before creating proxy in package.json the axios.get('http://127.0.0.1:8000/api/products/')
+      const { data } = await axios.get('/api/products/')
+      // we've used above a destructuring notation to declare {data} variable 
+      setProducts(data)
+    }
+
+    fetchProducts();
+
+  }, [])
+
   return (
     <div>
         <h1>Latest Products</h1>
