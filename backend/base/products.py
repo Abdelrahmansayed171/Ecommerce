@@ -3,7 +3,7 @@ products = [
         '_id': '1',
         'name': 'Airpods Wireless Bluetooth Headphones',
         'image': '/images/airpods.jpg',
-        'description': 'Bluetooth technology lets you connect it with compatible devices wirelessly High-quality',
+        'description': 'Wireless. Effortless. Magical.With plenty of talk and listen time, and an available wireless charging case, AirPods deliver an incredible wireless headphone experience. Simply take them out and they’re ready to use with all your devices. Put them in your ears and they connect immediately, immersing you in rich, high-quality sound. Just like magic.',
         'brand' : 'Apple',
         'category' : 'Electronics',
         'price' : '65.56',

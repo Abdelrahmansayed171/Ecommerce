@@ -12,4 +12,5 @@
 5. npm start
 
 6. npm install react-router-dom react-router-bootstrap
-7. 
+7. we have installed default django then we have installed django rest api then pillow for image processing
+8. Search about model serializer

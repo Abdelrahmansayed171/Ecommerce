@@ -124,6 +124,23 @@ USE_TZ = True
 
 STATIC_URL = "static/"
 
+
+# its just a URL that will be displayed in the browser
+MEDIA_URL = "images/"
+
+
+# IF YOU HAVE A LIST OF STATIC FILES DIRECTORIES
+# YOU CAN LIST IT BY THIS NOTATION
+# BUT IT WILL BE BY DEFAULT = BASE_DIR / 'static' ONLY if it's not in settings.py
+# STATICFILES_DIRS = [
+#     BASE_DIR / 'static'
+# ]
+ 
+# MEDIA_ROOT is the path where any media files will be accessed from 
+# MEDIA_ROOT = BASE_DIR / 'static/images'
+#               OR
+MEDIA_ROOT = BASE_DIR / 'static/images'
+
 CORS_ALLOW_ALL_ORIGINS = True
 
 # Default primary key field type
